@@ -1,0 +1,232 @@
+ /*ex-1*/
+ #draggable { 
+ 	width: 150px; 
+ 	height: 150px;
+ 	padding: 0.5em; 
+ 	background-color:red ;
+ 	}
+/*ex-3*/
+#sortable {
+ list-style-type: none; 
+ margin: 0;
+ padding: 0; 
+ width: 30%; 
+}
+  #sortable li {
+   margin: 0 3px 3px 3px;
+   padding: 50px; 
+   padding-left: 2.5em; 
+   font-size: 1.4em; 
+   height: 18px; 
+}
+  #sortable li span {
+  position: absolute; 
+  margin-left: -1.3em; 
+}
+
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+
+/*ex-6*/
+.ui-tabs-vertical {
+ width: 55em; 
+}
+  .ui-tabs-vertical .ui-tabs-nav { 
+  	padding: .2em .1em .2em .2em; 
+  	float: left; width: 12em; 
+  }
+  .ui-tabs-vertical .ui-tabs-nav li { 
+  	clear: left; 
+  	width: 100%; 
+  	border-bottom-width: 1px !important; 
+  	border-right-width: 0 !important; 
+  	margin: 0 -1px .2em 0; 
+  }
+  .ui-tabs-vertical .ui-tabs-nav li a {
+   display:block; 
+}
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+   padding-bottom: 0; 
+   padding-right: .1em; 
+   border-right-width: 1px; 
+}
+  .ui-tabs-vertical .ui-tabs-panel { 
+  	padding: 1em; 
+  	float: right; 
+  	width: 40em;
+  }
+  /*ex-7*/
+
+label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+  /*ex-8*/
+
+.toggler { 
+	width: 500px; 
+	height: 200px; 
+}
+  #button { 
+  	padding: .5em 1em; 
+  	text-decoration: none; 
+  }
+  #effect {
+   width: 240px; 
+   height: 170px; 
+   padding: 0.4em; 
+   position: relative; 
+}
+  #effect h3 {
+   margin: 0; 
+   padding: 0.4em; 
+   text-align: center; 
+}
+  /*ex-9*/
+
+.custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  /*ex-10*/
+
+.toggler10 {
+ width: 500px; 
+ height: 200px; 
+ position: relative; 
+}
+    #button10 { 
+    	padding: .5em 1em; 
+    	text-decoration: none; 
+    }
+    #effect10 { 
+    	width: 240px; 
+    	height: 170px; 
+    	padding: 0.4em; 
+    	position: relative; 
+    	background: #fff; 
+    }
+    #effect10 h3 { 
+    	margin: 0; 
+    	padding: 0.4em; 
+    	text-align: center; 
+    }
+
+  /*ex-11*/
+
+#resizable {
+ width: 150px; 
+ height: 150px; 
+ padding: 0.5em; 
+}
+  #resizable h3 { 
+  	text-align: center; 
+  	margin: 0; 
+  }
+
+  /*ex-12*/
+.toggler12 {
+ width: 500px; 
+ height: 200px; 
+ position: relative; 
+}
+  #button12 { 
+  	padding: .5em 1em; 
+  	text-decoration: none; 
+  }
+  #effect12 { 
+  	position: relative;  
+  	width: 240px;  
+  	padding: 1em;  
+  	letter-spacing: 0; 
+  	font-size: 1.2em; 
+  	border: 1px solid #000;
+  	background: #eee; 
+  	color: #333; 
+  }
+  .newClass { 
+  	text-indent: 40px; 
+  	letter-spacing: .4em; 
+  	width: 410px; 
+  	height: 100px; 
+  	padding: 30px; 
+  	margin: 10px; 
+  	font-size: 1.6em; 
+  }
+  /*ex-13*/
+.toggler13 { 
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+  #button13 { 
+  	padding: .5em 1em; 
+  	text-decoration: none; 
+  }
+  #effect13 { 
+  	position: relative; 
+  }
+  .newClass13 { 
+  	width: 240px;  
+  	padding: 1em; 
+  	letter-spacing: 0; 
+  	margin: 0; 
+  }
+  .anotherNewClass13 { 
+  	text-indent: 40px; 
+  	letter-spacing: .2em; 
+  	width: 410px; 
+  	height: 100px; 
+  	padding: 30px; 
+  	margin: 10px; 
+  	font-size: 1.1em;
+  	 }
+  /*ex-14*/
+  
+   /*ex-15*/
+  #sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
